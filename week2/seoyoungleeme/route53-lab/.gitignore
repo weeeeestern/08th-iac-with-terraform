@@ -1,0 +1,19 @@
+# 로컬 상태 파일
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform 작업 디렉토리 
+.terraform/
+.terraform.lock.hcl
+
+# Crash 로그 
+crash.log
+
+# Plan 파일
+*.tfplan
+
+*.tfvars
+*.auto.tfvars
+
+.DS_Store
+Thumbs.db
