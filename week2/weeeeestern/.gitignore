@@ -1,6 +1,4 @@
-# Terraform
+# Ignore Terraform providers & state
 .terraform/
 terraform.tfstate
 terraform.tfstate.backup
-
-.DS_Store
