@@ -1,17 +1,27 @@
 # 주제
 
-학습 주제를 작성해 주세요.
+Terraform 문법 기초
 
 # 요약
 
-- 학습 내용을 간단하게 요약해 주세요.
+- CLI 명령어 (init/plan/apply 등)
+- 기본 블록 (resource, data, variable 등)
+- 제어 구조 (반복문, 조건식, 함수)
 
 # 학습 내용
 
-## 소주제
+**주요 커맨드**
 
-학습 내용을 작성해 주세요.
+- [init/validate/plan/apply/destroy/fmt](./source/command.md)
 
-# 추가
+**기본 사용법**
 
-- 추가로 공유하고 싶은 내용을 작성해 주세요. (어떤 것이든 좋습니다!)
+- [테라폼 블록](./source/terraform_block.md)
+- [리소스](./source/resource_block.md)
+- [데이터 소스](./source/data_source.md)
+- [변수](./source/variable.md)
+- [지역 값](./source/local.md)
+- [출력](./source/output.md)
+- [반복문](./source/loop.md)
+- [조건식](./source/condition.md)
+- [함수](source/function.md)
